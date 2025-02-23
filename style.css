@@ -1,6 +1,16 @@
+@font-face 
+{
+    font-family: "Technology";
+    src: url(./fonts/Technology.ttf);
+}
+
+
 body {
     display: flex;
     justify-content: center;
+    background-color: black;
+    font-family: "Space Grotesk", serif;
+
 }
 
 .calculator {
@@ -8,6 +18,10 @@ body {
     width: 400px;
     height: 500px;
     flex-wrap: wrap;
+    margin-top: 150px;
+    font-family: "Technology", serif;
+
+
 
 }
 
@@ -16,11 +30,27 @@ button {
     width: 100px;
     height: 100px;
     flex-grow: 1;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    border-radius: 3px;
+    border: 1px solid white;
+    font-family: "Technology", serif;
+    align-items: center;
+    justify-content: center;
+
 }
 
 #display {
     width: 400px;
     height: 100px;
-    background-color: gray;
-    border: 1px solid black;
+    flex-wrap: wrap;
+    background-color: rgb(195, 199, 191);
+    font-family: "Technology", serif;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-size: 50px;
+    padding-left: 5px;
+    padding-top: 5px;
+
 }
